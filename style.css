@@ -32,7 +32,8 @@ display: flex;
   text-align: center;
   flex-wrap: wrap;
   max-width: 800px;
-  margin-bottom: 200px;
+  height: fit-content;
+  margin-bottom: 150px;
   background: rgba(255, 255, 255, 0.219);
 }
 h1 {
