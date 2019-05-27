@@ -7,7 +7,6 @@ background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 margin: 0;
-height: 100vh;
 color: black;
 font-family:sans-serif;
 display: flex;
@@ -32,7 +31,6 @@ display: flex;
   max-width: 800px;
   margin-bottom: 150px;
   background: rgba(255, 255, 255, 0.219);
-  height: 100vh;
 }
 h1 {
   display: block;
