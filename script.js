@@ -55,6 +55,7 @@ $(function () {
           }
           if (data.results.length === 0) {
             alert('found nothing have I...')
+            return
           }
 
           myResults.prepend(html)
