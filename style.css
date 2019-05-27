@@ -1,12 +1,8 @@
 
 body {
 background-image: url('yoda.jpg');
-
-
 font-family: 'Ramabhadra', sans-serif;
-
 font-family: 'Bitter', serif;
-
 scroll-behavior: smooth;
 width: 100%;
 height: 100%;
@@ -18,6 +14,7 @@ margin: 0;
 color: black;
 font-family:sans-serif;
 display: flex;
+align-items: center;
 flex-direction: column;
 height: 50vh;
 color:gold;
@@ -34,6 +31,7 @@ display: flex;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-wrap: wrap;
   max-width: 800px;
   margin-bottom: 50px;
@@ -75,36 +73,35 @@ select {
 }
 
 .btn:hover {
-  box-shadow: 0 0 30px 10px rgb(31, 187, 31)
+  box-shadow: 0 0 30px 10px rgba(8, 228, 8, 0.89)
 }
 .wyniki
 {
   list-style: none;
+  max-width: 600px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-align: center;
   padding: 0;
   border: 2px solid black;
-  margin: 0 50px;
+  margin: 0 10px;
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  align-items: center;
   flex-wrap: wrap;
+  
   opacity: 0;
   background: rgba(255, 255, 255, 0.219);
-  box-shadow: 0 0 50px 100px rgba(255, 217, 0, 0.356)
+  box-shadow: 0 0 50px 30px rgba(21, 255, 0, 0.356)
 
 }
 
 ul li {
   list-style: none;
-  text-align: center;
-  margin:30px 0;
-  width:fit-content;
-  padding-left: 0;
-  padding-right: 20px;
+  margin:40px 0;
+  padding: 0;
+  padding-right: 30px;
+  text-align: center
 }
 
 .active {
