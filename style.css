@@ -1,6 +1,12 @@
 
 body {
 background-image: url('yoda.jpg');
+
+
+font-family: 'Ramabhadra', sans-serif;
+
+font-family: 'Bitter', serif;
+
 scroll-behavior: smooth;
 width: 100%;
 height: 100%;
@@ -9,134 +15,104 @@ background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 margin: 0;
-
-background-color: rgba(255, 255, 255, 0.568);
 color: black;
 font-family:sans-serif;
 display: flex;
 flex-direction: column;
-height: 100vh;
+height: 50vh;
 color:gold;
 
-
+display: flex;
 }
+
 .container {
-margin-top: 0px;
-text-align: center;
-
-}
-@keyframes opacity {
-  0% { opacity:0.1 }
-  100%{ opacity: 1; box-shadow: 0 0 100px 50px dodgerblue; }
-}
-.wyniki {
-  max-width: 500px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid black;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  border-radius: 50px;
-  margin:auto;
-  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-bottom: 50px;
+  background: rgba(255, 255, 255, 0.219);
+}
+h1 {
+  display: block;
+  margin: 0 30px
 }
 
-.resulty {
-  display: flex;
-  flex-direction: column;
-  min-height: 100px;
-  border-radius: 50px;
-  opacity: 1;
-  margin-top: 10px;
+#input {
+  height: 30px;
+  border:2px solid rgb(0, 0, 0);
+  margin: 5px;
 
-}
-.active{
-  animation: opacity forwards 4s
-}
-ul {
-  display: flex;
-  flex-direction: column;
-  
-}
-a{
-  color:dodgerblue;
-  opacity:0.2
-}
-a:hover {
-  opacity:0.2;
-  box-shadow: 0 0 20px 15px dodgerblue  ;
-  border-radius: 50%;
-  width: 150px;
-  text-align:center;
-  color:goldenrod
-  ;
-}
-
-li {
-text-align: center;
-list-style: none;
-min-width: 200px;
-border:1px solid gold;
-box-shadow: 0 0 150px 50px gold;
-border-radius: 5px;
-margin-right: 35px;
-margin-top: 50px;
-padding:20px 1px;
-}
-.xxx {
-  width: 300px;
-  }
-
-input {
-
-  outline: none;
-  padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;
-  border: 1px solid #DDDDDD;
-}
-input:focus{
-  box-shadow: 0 0 100px 20px rgba(81, 203, 238, 1);
-  padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;
-  border: 1px solid blue;
-}
-
-.inputy {
-border: 1px solid lightgrey;
-border-radius: 2px;
-height: 30px;
-}
-
-button {
-  border-radius: 3px;
-  font-weight: 700;
-border: 1px solid  grey;
-background-color: gold;
-height: 30px;
-width: 80px
-}
-button:focus {
-  box-shadow: 0 0 45px rgba(81, 203, 238, 1);
-  padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;
-  border: 1px solid blue;
 }
 select {
-  width: 100px;
-  outline: none;
-  padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;
-  border: 1px solid #DDDDDD;
-  height: 30px}
-select:focus{
-  box-shadow: 0 0 100px 20px rgba(81, 203, 238, 1);
-  padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;
-  border: 1px solid blue;
+  border:2px solid rgb(0, 0, 0);
+  height: 34px;
+  margin-right: 5px;
+  
+
+}
+#select {
+  height: 10px;
+  width:100px;
+  border:2px solid rgb(0, 0, 0);
+
+}
+.btn {
+  width:100px;
+  margin:2px;
+  height: 50px;
+  border-radius: 5px;
+  border:2px solid rgb(0, 0, 0);
+  background: rgba(255, 255, 0, 0.959);
+  font-weight: bolder
+  
+}
+
+.btn:hover {
+  box-shadow: 0 0 30px 10px rgb(31, 187, 31)
+}
+.wyniki
+{
+  list-style: none;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: center;
+  padding: 0;
+  border: 2px solid black;
+  margin: 0 50px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.219);
+  box-shadow: 0 0 50px 100px rgba(255, 217, 0, 0.356)
 
 }
 
-h1 {text-decoration-line: underline}
+ul li {
+  list-style: none;
+  text-align: center;
+  margin:30px 0;
+  width:fit-content;
+  padding-left: 0;
+  padding-right: 20px;
+}
 
-@media (max-width:500px) {
-  .xxx {
-    width:200px;
+.active {
+  animation: show 1s forwards;
+  display: block
+}
+@keyframes show {
+  100% {
+    opacity: 1;
   }
 }

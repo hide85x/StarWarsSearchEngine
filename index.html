@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
 
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"></script>
-    <title>STAW WARS</title>
-  </head>
-  <body>
-    <div class="container">
-        <h1> Search for Star Wars movies and characters!</h1>
-        <input type="text"   class='inputy xxx' id="input" placeholder="Lost something Young padawan has...">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <title>STAW WARS</title>
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Ramabhadra&display=swap" rel="stylesheet"> </head>
 
-        <select class="custom-select inputy" autocomplete='off' id="option" >
-          <option selected>Choose...</option>
-          <option value="films">Films</option>
-          <option value="people">Characters</option>
-       </select>
-       <button type="button" id="refresh">Clear</button>
-        <button id='send' type="submit" > G   O  !</button>
-    
+<body>
+  <div class="container">
+    <h1> Search for Star Wars movies and characters!</h1>
+    <input type="text" class='inputy xxx' id="input" placeholder="Lost something Young padawan has...">
 
-    <div class='wyniki'>
-      <ul id="results" class='resulty'>
+    <select class="custom-select inputy" autocomplete='off' id="option">
+      <option id="select" selected>Choose...</option>
+      <option id="films" value="films">Films</option>
+      <option id="chars" value="people">Characters</option>
+    </select>
 
-      </ul>
-    </div>
+    <span>
+
+      <button class="btn" type="button" id="refresh">Clear</button>
+      <button class="btn" id='send' type="submit"> GO!</button>
+    </span>
+
   </div>
 
-    <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+  <div class='wyniki' >
+    <ul id="results" class='resulty'>
 
-    <script src='script.js'>
-    </script>
+    </ul>
+  </div>
 
-  </body>
+  <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+
+  <script src='script.js'>
+  </script>
+
+</body>
+
 </html>
