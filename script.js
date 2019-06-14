@@ -65,7 +65,11 @@ $(function () {
         $('.wyniki').addClass('active');
         const wyniki= this.getBoundingClientRect()
         console.log(wyniki)
-        window.scrollTo(wyniki)
+
+        setTimeout(function(){
+          window.scrollTo(wyniki)
+        } ,1000)
+        
 
        
       })
