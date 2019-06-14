@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    text-align: center;
+    margin: 50px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:3px solid black;
+    background: rgba(255, 255, 255, 0.219);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    
+}
+body {
+    background-image: url('yoda.jpg');
+    font-family: 'Ramabhadra', sans-serif;
+    color:gold;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+h1 {
+    display: block;word-wrap: break-word
+}
+.searchbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0;
+}
+.btn {
+    width:100px;
+    height: 50px;
+    border-radius: 5px;
+    border:3px solid rgb(0, 0, 0);
+    background: rgba(255, 255, 0, 0.959);
+    font-weight: bolder
+    
+  }
+  
+  .btn:hover {
+    box-shadow: 0 0 5px 5px rgba(8, 228, 8, 0.89);
+    color: rgba(8, 228, 8, 0.89)
+  }
+
+.inputy {
+    height: 30px;
+    border:3px solid rgb(0, 0, 0);
+    margin: 5px;
+    text-align: center
+}
+input {
+    width: 290px
+}
+.wyniki
+{
+  margin: auto;
+  list-style: none;
+  max-width: 600px;
+  text-align: center;
+  border: 2px solid black;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.452);
+  box-shadow: 0 0 50px 20px rgba(21, 255, 0, 0.356)
+
+}
+
+ul li {
+  list-style: none;
+  margin:40px 0;
+  padding: 0;
+  padding-right: 30px;
+}
+
+.active {
+  animation: show 1s forwards;
+  display: block
+}
+@keyframes show {
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width:500px) {
+  .container {
+    margin:auto;
+    padding: auto
+  }
+}

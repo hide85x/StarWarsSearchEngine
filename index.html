@@ -10,26 +10,29 @@
   crossorigin="anonymous"></script>
   <title>STAW WARS</title>
   <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
 
   <link href="https://fonts.googleapis.com/css?family=Bitter|Ramabhadra&display=swap" rel="stylesheet"> </head>
 
 <body>
   <div class="container">
-    <h1> Search for Star Wars movies and characters!</h1>
-    <input type="text" class='inputy xxx' id="input" placeholder="Lost something Young padawan has...">
+      <h1> Search for Star Wars movies and characters!</h1>
+      <div class="searchbar">
+        <input type="text" class='inputy xxx' id="input" placeholder="Lost something Young padawan has...">
+    
+        <select class="custom-select inputy" autocomplete='off' id="option">
+          <option id="select" selected>Choose...</option>
+          <option id="films" value="films">Films</option>
+          <option id="chars" value="people">Characters</option>
+        </select>
+    
+        <span>
+    
+          <button class="btn" type="button" id="refresh">Clear</button>
+          <button class="btn" id='send' type="submit"> GO!</button>
+        </span>
 
-    <select class="custom-select inputy" autocomplete='off' id="option">
-      <option id="select" selected>Choose...</option>
-      <option id="films" value="films">Films</option>
-      <option id="chars" value="people">Characters</option>
-    </select>
-
-    <span>
-
-      <button class="btn" type="button" id="refresh">Clear</button>
-      <button class="btn" id='send' type="submit"> GO!</button>
-    </span>
+      </div>
 
   </div>
 
