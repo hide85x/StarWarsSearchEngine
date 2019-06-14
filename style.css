@@ -7,7 +7,7 @@ background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 margin: 0;
-height: 100vh;
+height: 90vh;
 width: 100%;
 color: black;
 font-family:sans-serif;
@@ -90,7 +90,7 @@ select {
   
   opacity: 0;
   background: rgba(255, 255, 255, 0.219);
-  box-shadow: 0 0 50px 30px rgba(21, 255, 0, 0.356)
+  box-shadow: 0 0 50px 20px rgba(21, 255, 0, 0.356)
 
 }
 
