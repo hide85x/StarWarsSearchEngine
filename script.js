@@ -25,7 +25,6 @@ $(function () {
 
   button.click(function (e) {
     $('.wyniki').removeClass('active')
-   
 
     const myValue = myInput.val();
     const ApiToSend = ApiUrl + '/' + searchOption + '/?search=' + myValue;
@@ -64,12 +63,11 @@ $(function () {
         }
         showResults(searchOption, results)
         $('.wyniki').addClass('active');
-        window.scrollTo({
-          top:300,
-          behavior: "smooth"
-        })
+        const wyniki= this.getBoundingClientRect()
+        console.log(wyniki)
+        window.scrollTo(wyniki)
 
-
+       
       })
       .catch(err => alert("a category choose must You have!"))
 

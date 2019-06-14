@@ -89,7 +89,7 @@ ul li {
 .active {
   animation: show 1s forwards;
   display: block;
-  scroll-margin: 200px
+  
 }
 @keyframes show {
   100% {
