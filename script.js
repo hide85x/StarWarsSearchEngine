@@ -25,7 +25,7 @@ $(function () {
 
   button.click(function (e) {
     $('.wyniki').removeClass('active')
-
+   
 
     const myValue = myInput.val();
     const ApiToSend = ApiUrl + '/' + searchOption + '/?search=' + myValue;
@@ -60,13 +60,13 @@ $(function () {
           }
 
           myResults.prepend(html)
+          window.scrollTo({
+            top:300,
+            behavior: "smooth"
+          })
 
         }
         showResults(searchOption, results)
-        window.scrollTo({
-          top: 300,
-          behavior: "smooth"
-        })
         $('.wyniki').addClass('active')
 
       })
