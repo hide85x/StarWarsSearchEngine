@@ -67,7 +67,7 @@ button:focus {
   border: 2px solid black;
   opacity: 0;
   background: rgba(0, 0, 0, 0.336);
-  box-shadow: 0 0 50px 20px rgba(21, 255, 0, 0.356)
+  box-shadow: 0 0 50px 10px rgba(21, 255, 0, 0.356)
 
 }
 
