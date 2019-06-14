@@ -31,7 +31,7 @@ display: flex;
   text-align: center;
   flex-wrap: wrap;
   max-width: 800px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   position: relative;
   background: rgba(255, 255, 255, 0.219);
 }
@@ -42,7 +42,7 @@ h1 {
 
 #input {
   height: 30px;
-  width: 250px;
+  width: 280px;
   border:2px solid rgb(0, 0, 0);
   margin: 5px;
 
@@ -63,8 +63,7 @@ select {
 }
 .btn {
   width:100px;
-  margin:2px;
-  margin-top: 20px;
+  margin:10px;
   height: 50px;
   border-radius: 5px;
   border:2px solid rgb(0, 0, 0);
@@ -74,7 +73,7 @@ select {
 }
 
 .btn:hover {
-  box-shadow: 0 0 10px 5px rgba(8, 228, 8, 0.89);
+  box-shadow: 0 0 5px 5px rgba(8, 228, 8, 0.89);
   color: rgba(8, 228, 8, 0.89)
 }
 .wyniki
@@ -82,11 +81,9 @@ select {
   list-style: none;
   max-width: 600px;
   text-align: center;
-  padding: 0;
+  margin:20px 0;
   border: 2px solid black;
-  margin: 20px 10px;
   height: fit-content;
-  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,13 +113,9 @@ ul li {
   }
 }
 
-@media (max-width:600px) {
+@media (max-width:500px) {
   .container {
     margin:auto;
     padding: auto
-  }
-  .wyniki {
-    margin:20px;
-    padding: 10px
   }
 }
