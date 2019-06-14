@@ -1,8 +1,8 @@
 .container {
     display: flex;
     text-align: center;
-    margin: 50px 0;
-    padding: 70px 0;
+    margin-bottom: 25px;
+    padding: 100px 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@
 body {
     font-family: 'Ramabhadra', sans-serif;
     color:gold;
-    background: dodgerblue;
+    background: rgba(30, 143, 255, 0.568);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 
