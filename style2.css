@@ -12,6 +12,7 @@
 body {
     font-family: 'Ramabhadra', sans-serif;
     color:gold;
+    background: dodgerblue;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 
@@ -49,6 +50,12 @@ h1 {
 }
 input {
     width: 290px
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 .wyniki
 {
