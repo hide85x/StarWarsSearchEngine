@@ -63,12 +63,13 @@ $(function () {
         
         }
         showResults(searchOption, results)
-        window.scrollTo({
-          top:300,
-          behavior: "smooth"
-        })
+        
 
         $('.wyniki').addClass('active')
+        setTimeout(window.scrollTo({
+          top:300,
+          behavior: "smooth"
+        }),1000)
 
       })
       .catch(err => alert("a category choose must You have!"))
