@@ -60,13 +60,14 @@ $(function () {
           }
 
           myResults.prepend(html)
-          window.scrollTo({
-            top:300,
-            behavior: "smooth"
-          })
-
+        
         }
         showResults(searchOption, results)
+        window.scrollTo({
+          top:300,
+          behavior: "smooth"
+        })
+
         $('.wyniki').addClass('active')
 
       })
