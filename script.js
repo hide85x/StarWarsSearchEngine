@@ -24,6 +24,7 @@ $(function () {
 
 
   button.click(function (e) {
+    $('.wyniki').removeClass('active')
 
     const myValue = myInput.val();
     const ApiToSend = ApiUrl + '/' + searchOption + '/?search=' + myValue;
