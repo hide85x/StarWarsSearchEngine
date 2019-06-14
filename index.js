@@ -22,6 +22,7 @@ $('#input').keypress(function(e){
 
 
 button.click(function(e){
+$(body).scroll(200)
 
 const myValue= myInput.val();
 
