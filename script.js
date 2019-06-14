@@ -1,5 +1,14 @@
 $(function () {
 
+  let bg = $(".container");
+
+function resizeBackground() {
+    bg.height($(window).height());
+}
+
+$(window).resize(resizeBackground);
+resizeBackground();
+
   const myOption = $('#option');
   const myInput = $('input');
   const button = $('#send');

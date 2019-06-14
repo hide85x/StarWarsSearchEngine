@@ -7,7 +7,7 @@
     align-items: center;
     border:3px solid black;
     background: rgba(255, 255, 255, 0.219);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: relative;
 
     
 }
@@ -16,8 +16,10 @@ body {
     font-family: 'Ramabhadra', sans-serif;
     color:gold;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 
 }
@@ -33,7 +35,7 @@ h1 {
 }
 .btn {
     width:100px;
-    height: 50px;
+    height: 40px;
     border-radius: 5px;
     border:3px solid rgb(0, 0, 0);
     background: rgba(255, 255, 0, 0.959);
@@ -48,7 +50,7 @@ h1 {
 
 .inputy {
     height: 30px;
-    border:3px solid rgb(0, 0, 0);
+    border:2px solid rgb(0, 0, 0);
     margin: 5px;
     text-align: center
 }
@@ -58,12 +60,13 @@ input {
 .wyniki
 {
   margin: auto;
+  margin-top: 20px;
   list-style: none;
   max-width: 600px;
   text-align: center;
   border: 2px solid black;
   opacity: 0;
-  background: rgba(0, 0, 0, 0.452);
+  background: rgba(0, 0, 0, 0.336);
   box-shadow: 0 0 50px 20px rgba(21, 255, 0, 0.356)
 
 }
@@ -91,3 +94,4 @@ ul li {
     padding: auto
   }
 }
+
