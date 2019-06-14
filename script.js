@@ -70,8 +70,8 @@ $(function () {
         const wyniki= this.getBoundingClientRect()
         console.log(wyniki)
 
-        setTimeout(function(e){
-          e.scrollX(500)
+        setTimeout(function(){
+          window.scrollTo(wyniki)
         } ,1000)
         
 
