@@ -60,16 +60,15 @@ $(function () {
           }
 
           myResults.prepend(html)
-        
+          
         }
         showResults(searchOption, results)
-        
-
-        $('.wyniki').addClass('active')
-        setTimeout(window.scrollTo({
+        $('.wyniki').addClass('active');
+        window.scrollTo({
           top:300,
           behavior: "smooth"
-        }),1000)
+        })
+
 
       })
       .catch(err => alert("a category choose must You have!"))
