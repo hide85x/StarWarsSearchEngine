@@ -97,10 +97,10 @@ ul li {
   }
 }
 
-@media (max-width:500px) {
+@media (max-width:900px) {
   .container {
-    margin:auto;
-    padding: 50px
+    margin:0;
+    padding: 20px
   }
 
 }
