@@ -56,12 +56,16 @@ $(function () {
           }
           if (data.results.length === 0) {
             alert('found nothing have I...')
+            return
           }
 
           myResults.prepend(html)
           
         }
         showResults(searchOption, results)
+        if (data.results.length < 1) {
+          return
+        }
         $('.wyniki').addClass('active');
         const wyniki= this.getBoundingClientRect()
         console.log(wyniki)
